@@ -1,32 +1,60 @@
-# Cocacola
+Coca-Cola Sales Analysis using Machine Learning
 📌 Project Overview
 
-This project focuses on analyzing Coca-Cola sales data and transforming raw sales sheets into interactive dashboards using Power BI and Tableau. The goal is to provide business insights into sales performance, regional trends, and product-level analysis, enabling better decision-making.
+This project analyzes Coca-Cola sales data using Python-based machine learning models to uncover meaningful insights and predict future sales trends.
+The workflow includes:
 
-Both the dataset and transformation codes have been uploaded to this repository for transparency and reproducibility.
+Data cleaning & preprocessing
 
-Objectives
+Exploratory data analysis (EDA)
 
-- Clean, preprocess, and structure Coca-Cola sales data.
-- Build dynamic dashboards to visualize key metrics such as:
-- Total Sales & Revenue Trends
-- Regional Performance
-- Top-Selling Products
-- Monthly/Quarterly Growth
-- Compare Power BI vs. Tableau dashboards for business intelligence.
+Building predictive models for sales forecasting
 
-Tools & Technologies
+Visualizing results using Python libraries
 
-Power BI → For creating interactive dashboards and business reports
+This project aims to support businesses in making data-driven decisions by leveraging machine learning techniques.
 
-Tableau → For advanced visualization and storytelling
+🛠️ Tools Used
 
-Python / SQL → For data cleaning and preprocessing
+Python (Data analysis & modeling)
 
-Excel / CSV → Source data format
+Pandas, NumPy → Data cleaning and preprocessing
 
-📊 Dashboards
+Matplotlib, Seaborn → Data visualization & insights
 
-Power BI Dashboard: Provides dynamic filters, drill-downs, and KPI cards.
+Scikit-learn → Machine learning model building (Regression, Classification, Forecasting)
 
-Tableau Dashboard: Focuses on storytelling with heatmaps, trend analysis, and regional performance.
+Jupyter Notebook → Development environment
+
+🎯 Objectives
+
+Analyze Coca-Cola sales patterns and identify growth opportunities.
+
+Apply machine learning models for sales prediction.
+
+Visualize historical trends and correlations between features (e.g., region, product type, time).
+
+Provide actionable business insights from predictive results.
+
+📊 Key Insights
+
+Sales show seasonal fluctuations, peaking during summer months.
+
+Regional variations indicate higher demand in metropolitan areas.
+
+Certain product lines consistently outperform others, contributing to a majority of revenue.
+
+Machine learning models (e.g., Linear Regression, Random Forest) successfully captured sales trends with high accuracy.
+
+✅ Conclusion
+
+The analysis highlights that machine learning can effectively predict Coca-Cola sales trends, enabling better demand planning and inventory management.
+With proper forecasting, Coca-Cola can:
+
+Optimize supply chain operations
+
+Improve marketing strategies for high-demand regions
+
+Anticipate seasonal sales surges
+
+This project demonstrates how combining Python, data analysis, and machine learning can transform raw data into valuable business intelligence.
